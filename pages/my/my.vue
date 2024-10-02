@@ -54,7 +54,7 @@
 			<view class="fs32">订单</view>
 			<view class="df jcsb mt20">
 				<view @click="conf.toPathDt('/pages/donate/donateDD')">捐赠订单</view>
-				<view @click="conf.toPathDt('/pages/merchantmanagement/merchantGoods')">商品订单</view>
+				<view @click="conf.toPathDt('/pages/my/myorder/myorder')">商品订单</view>
 				<view @click="conf.toPathDt('/pages/my/myorder/refund')">退款/售后</view>
 			</view>
 		</view>

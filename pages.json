@@ -21,7 +21,9 @@
 		{"path": "pages/order/order","style":{ "navigationBarTitleText":"提交订单"}},
 		{"path": "pages/order/pay","style":{ "navigationBarTitleText":"收银台"}},
 		{"path": "pages/cart/cart","style":{ "navigationBarTitleText":"购物车"}},
-		
+		{"path": "pages/order/success","style":{ "navigationBarTitleText":"成功"}},
+    
+    
 		{"path": "pages/merchantmanagement/merchantmanagement","style":{ "navigationBarTitleText":"商户管理"}},
 		{"path": "pages/merchantmanagement/merchantShop","style":{ "navigationBarTitleText":"店铺管理"}},
 		{"path": "pages/merchantmanagement/merchantType","style":{ "navigationBarTitleText":"商户商品分类管理"}},
@@ -36,7 +38,8 @@
 		{"path": "pages/my/myinfo/myinfo","style":{ "navigationBarTitleText":"个人资料"}},
 		{"path": "pages/my/myorder/myorder","style":{ "navigationBarTitleText":"我的订单"}},
     {"path": "pages/my/myorder/refund","style":{ "navigationBarTitleText":"退款"}},
-		{"path": "pages/my/myorder/myorderDetails","style":{ "navigationBarTitleText":"我的订单详情"}},
+    // 单页
+		{"path": "pages/my/myorder/myorderDetails","style":{ "navigationBarTitleText":""}},
 		{"path": "pages/my/myaddress/myaddress","style":{ "navigationBarTitleText":"我的地址"}},
 		{"path": "pages/my/myaddress/myaddressAdd","style":{ "navigationBarTitleText":"新增我的地址"}},
 		{"path": "pages/my/myshare/myshare","style":{ "navigationBarTitleText":"我的分享"}},
@@ -48,8 +51,8 @@
 		
 		{"path": "pages/sys/set","style":{ "navigationBarTitleText":"系统设置"}},
 		{"path": "pages/sys/lamessage","style":{ "navigationBarTitleText":"留言反馈"}},
-		
-		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":"单页"}}
+		// 单页
+		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":""}}
 	],
 	"tabBar": {
 		"color": "#888888", //底部导航文字颜色

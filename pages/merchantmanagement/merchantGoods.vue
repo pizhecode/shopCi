@@ -1,6 +1,6 @@
 <template>
 	<view>
-		商户产品管理
+		商户管理
 	</view>
 </template>
 

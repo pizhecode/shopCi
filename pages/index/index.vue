@@ -134,7 +134,7 @@
 			
 		},
 		onLoad(e) {
-      this.getBanner()
+      // this.getBanner()
 		},
 		methods: {
 			//轮播图  /api/pub/banners/getlist

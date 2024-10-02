@@ -32,7 +32,7 @@
 </template>
 
 <script>
-   import fuiButton from "@/components/firstui/fui-button/fui-button"
+   import fuiButton from "@/components/firstui/fui-button"
 	export default {
     components:{ fuiButton },
 		data() {
