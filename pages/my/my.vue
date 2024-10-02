@@ -79,11 +79,10 @@
 					<view>留言反馈</view>
 					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
 				</view>
-				<view class="df jcsb bb1ccc mt30 pb30">
+				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/sys/message')">
           <!-- <button open-type="contact" bindcontact="handleContact" session-from="sessionFrom">在线客服</button> -->
-          <view class="contact-view" bindtap="handleContact">
-              联系客服
-          </view>
+          
+          <view>联系客服</view>
 					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
 				</view>
 				<view class="df jcsb bb1ccc mt30 pb30" @click="to_details(3306)">
@@ -128,19 +127,7 @@
       btnManageShop(){
         uni.navigateTo({url: '/pages/merchantmanagement/merchantmanagement',})
       },
-      //联系客服
-      handleContact() {
-          wx.openCustomerServiceChat({
-              // 可以根据需要设置 sessionFrom 和其他参数
-              sessionFrom: 'sessionFrom',
-              success(res) {
-                  console.log('联系客服成功', res);
-              },
-              fail(err) {
-                  console.error('联系客服失败', err);
-              }
-          });
-      },
+     
       //关于我们
       to_details(et){uni.navigateTo({url: "/pages/singlepage/singlepage?et="+et})},
 		}

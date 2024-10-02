@@ -1,8 +1,8 @@
 <template>
 	<view>
       <fui-textarea flexStart label="留言" placeholder="留言内容"></fui-textarea>
-      <fui-input label="联系电话(选填)" labelSize="20rpx" size="20rpx" borderTop placeholder="这是一个输入框" maxlength="11"></fui-input>
-      <fui-input label="联系邮箱(选填)" labelSize="20rpx" size="20rpx" :bottomLeft="0" placeholder="请输入文本"></fui-input>
+      <fui-input label="联系电话(选填)" labelSize="20rpx" size="20rpx" borderTop placeholder="请输入联系电话" maxlength="11"></fui-input>
+      <fui-input label="联系邮箱(选填)" labelSize="20rpx" size="20rpx" :bottomLeft="0" placeholder="请输入联系邮箱"></fui-input>
       <view class="pf b0 vw100">
         <fui-button>提交</fui-button>
       </view>

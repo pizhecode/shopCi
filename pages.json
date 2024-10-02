@@ -51,6 +51,7 @@
 		
 		{"path": "pages/sys/set","style":{ "navigationBarTitleText":"系统设置"}},
 		{"path": "pages/sys/lamessage","style":{ "navigationBarTitleText":"留言反馈"}},
+    {"path": "pages/sys/message","style":{ "navigationBarTitleText":"联系客服"}},
 		// 单页
 		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":""}}
 	],
