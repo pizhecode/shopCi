@@ -1,0 +1,75 @@
+{
+	"pages": [
+		{"path": "pages/index/index","style":{ "navigationBarTitleText":"首页","enablePullDownRefresh": false,"navigationStyle": "custom"}},
+		{"path": "pages/index/so","style":{ "navigationBarTitleText":"搜索"}},
+		{"path": "pages/my/my","style":{ "navigationBarTitleText":"我的","enablePullDownRefresh": false,"navigationStyle": "custom"}},
+		{"path": "pages/login/reg","style":{ "navigationBarTitleText":"注册"}},
+		{"path": "pages/login/login","style":{ "navigationBarTitleText":"登录"}},
+		
+		{"path": "pages/type/type","style":{ "navigationBarTitleText":"分类","enablePullDownRefresh": false,"navigationStyle": "custom"}},
+		
+		{"path": "pages/donate/donate","style":{ "navigationBarTitleText":"捐赠","enablePullDownRefresh": false,"navigationStyle": "custom"}},
+		{"path": "pages/donate/donateFm","style":{ "navigationBarTitleText":"捐赠提交"}},
+		{"path": "pages/donate/donateDD","style":{ "navigationBarTitleText":"捐赠订单"}},
+    
+		{"path": "pages/shop/shop","style":{ "navigationBarTitleText":"店铺"}},
+		{"path": "pages/shop/shopDetails","style":{ "navigationBarTitleText":"店铺详情"}},
+		
+		{"path": "pages/goods/goods","style":{ "navigationBarTitleText":"产品"}},
+		{"path": "pages/goods/goodsDetails","style":{ "navigationBarTitleText":"产品详情"}},
+		
+		{"path": "pages/order/order","style":{ "navigationBarTitleText":"提交订单"}},
+		{"path": "pages/order/pay","style":{ "navigationBarTitleText":"收银台"}},
+		{"path": "pages/cart/cart","style":{ "navigationBarTitleText":"购物车"}},
+		
+		{"path": "pages/merchantmanagement/merchantmanagement","style":{ "navigationBarTitleText":"商户管理"}},
+		{"path": "pages/merchantmanagement/merchantShop","style":{ "navigationBarTitleText":"店铺管理"}},
+		{"path": "pages/merchantmanagement/merchantType","style":{ "navigationBarTitleText":"商户商品分类管理"}},
+		{"path": "pages/merchantmanagement/merchantGoods","style":{ "navigationBarTitleText":"商户产品管理"}},
+		{"path": "pages/merchantmanagement/merchantOrder","style":{ "navigationBarTitleText":"商户订单管理"}},
+		{"path": "pages/merchantmanagement/merchantPurse","style":{ "navigationBarTitleText":"商户钱包管理"}},
+		
+		{"path": "pages/ridermanagement/ridermanagement","style":{ "navigationBarTitleText":"骑手管理"}},
+		{"path": "pages/ridermanagement/riderOrder","style":{ "navigationBarTitleText":"产品订单"}},
+		{"path": "pages/ridermanagement/riderOrderShop","style":{ "navigationBarTitleText":"店铺订单"}},
+		
+		{"path": "pages/my/myinfo/myinfo","style":{ "navigationBarTitleText":"个人资料"}},
+		{"path": "pages/my/myorder/myorder","style":{ "navigationBarTitleText":"我的订单"}},
+    {"path": "pages/my/myorder/refund","style":{ "navigationBarTitleText":"退款"}},
+		{"path": "pages/my/myorder/myorderDetails","style":{ "navigationBarTitleText":"我的订单详情"}},
+		{"path": "pages/my/myaddress/myaddress","style":{ "navigationBarTitleText":"我的地址"}},
+		{"path": "pages/my/myaddress/myaddressAdd","style":{ "navigationBarTitleText":"新增我的地址"}},
+		{"path": "pages/my/myshare/myshare","style":{ "navigationBarTitleText":"我的分享"}},
+    {"path": "pages/my/myshare/myShareCode","style":{ "navigationBarTitleText":"我的分享码"}},
+    {"path": "pages/my/myFriend/myFriend","style":{ "navigationBarTitleText":"我的好友"}},
+		{"path": "pages/my/myshare/myshares","style":{ "navigationBarTitleText":"我分享的"}},
+		{"path": "pages/my/mypurse/mypurse","style":{ "navigationBarTitleText":"我的钱包"}},
+		{"path": "pages/my/mypurse/trading","style":{ "navigationBarTitleText":"交易明细"}},
+		
+		{"path": "pages/sys/set","style":{ "navigationBarTitleText":"系统设置"}},
+		{"path": "pages/sys/lamessage","style":{ "navigationBarTitleText":"留言反馈"}},
+		
+		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":"单页"}}
+	],
+	"tabBar": {
+		"color": "#888888", //底部导航文字颜色
+		"selectedColor": "#ff7200", //底部导航选中文字颜色
+		"borderStyle": "black", // 底部导航边框颜色
+		"backgroundColor": "#f8f8f8", // 底部导航背景颜色
+		"list": [
+			{"pagePath": "pages/index/index","iconPath": "static/imgs/tabBar/i.png","selectedIconPath": "static/imgs/tabBar/i_on.png","text": "首页"},
+			{"pagePath": "pages/type/type","iconPath": "static/imgs/tabBar/dr.png","selectedIconPath": "static/imgs/tabBar/dr_on.png","text": "分类"},
+			{"pagePath": "pages/donate/donate","iconPath": "static/imgs/tabBar/u.png","selectedIconPath": "static/imgs/tabBar/u_on.png","text": "捐赠"},
+			{"pagePath": "pages/my/my","iconPath": "static/imgs/tabBar/u.png","selectedIconPath": "static/imgs/tabBar/u_on.png","text": "我的"}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "慈善超市",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
