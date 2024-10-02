@@ -36,9 +36,9 @@
 			<view class="p30">
          <!-- @click="conf.toPathDt(`/pages/goods/goodsDetails?id=${item.id}`)" -->
 				<view class="df mt10 mb40"  v-for="(item, index) in products" :key="index">
-					<view class="mr20 w200" ><image class="br20 w200 h200" src="/static/logo.png"></image></view>
+					<view class="mr20 w200"@click="conf.toPathDt(`/pages/goods/goodsDetails?id=${item.id}`)" ><image class="br20 w200 h200" src="/static/logo.png"></image></view>
 					<view class="w270">
-						<view class="fs32">{{item.youname}}</view>
+						<view class="fs32" @click="conf.toPathDt(`/pages/goods/goodsDetails?id=${item.id}`)">{{item.youname}}</view>
 						<view class="mt10 fs24">{{item.say}}</view>
 						<view class="mt10 fs24">月销{{item.pay}}</view>
 						<view class="mt10 df jcsb">
