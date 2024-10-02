@@ -17,7 +17,7 @@
 						<view>{{item.adress}}</view>
 					</view>
 				</view>
-				<view class="df aic jcsb mt20">
+				<view class="df aic jcfe mt20">
 					<!-- <view v-if="item.state=='1'" class="df aic" >
 						<image src="/static/image/ok.png" mode="" class="w40 h40 mr12"></image>
 						<view>默认地址</view>
@@ -28,11 +28,11 @@
 					</view> -->
 					<view class="df aic" @click="btn_on(item)">
 						<image src="/static/image/my/m5.png" mode="" class="w40 h40 mr12"></image>
-						<view>选择地址</view>
+						<view>编辑</view>
 					</view>
 					<view class="df aic" @click="btn_del_show(item)">
 						<image src="/static/image/del.png" mode="" class="w40 h40 mr12"></image>
-						<view>删除地址</view>
+						<view>删除</view>
 					</view>
 				</view>
 			</view>
@@ -73,7 +73,7 @@
 		data() {
 			return {
 				usersInfo:'',
-				dataList:[],
+				dataList:[{name:'name',phone:'123123123',city:'2131',adress:'1231'}],
 				dataListMsg:'',
 				dataList_forIndex: 0, //选中id
 				ffM: {page: 1,size: 15,pages: 0,},

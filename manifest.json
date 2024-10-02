@@ -117,5 +117,6 @@
     },
     "mp-toutiao" : {
         "appid" : ""
-    }
+    },
+    "locale" : "zh-Hans"
 }
