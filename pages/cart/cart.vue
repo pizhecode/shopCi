@@ -25,7 +25,7 @@
      <view class="pa b0 vw90 " style="margin-left: 5%;">
        <view class="df aic pb35 jcsa">
            <view class="">共3件商品</view>
-           <fui-button type="danger" radius="96rpx" width="350rpx" height="70rpx" @click="btnGoPay()">￥9.9 去结算</fui-button>
+           <fui-button type="danger" radius="96rpx" width="350rpx" height="70rpx" @click="btnGoOrder()">￥9.9 去结算</fui-button>
        </view>
      </view>
 	</view>
@@ -59,8 +59,8 @@
         this.conf.uaMsg("清空购物车成功")
       },
       //btn
-      btnGoPay(){
-          console.log("1");
+      btnGoOrder(){
+         this.conf.toPathDt("/pages/order/order")
       }
      
 		}
