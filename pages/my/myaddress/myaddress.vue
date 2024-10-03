@@ -1,9 +1,5 @@
 <template>
 	<view class="pgcs">
-		<!-- 固定定位 -->
-		<view class="pf b0 bcfff vw100  z5">
-			<view class="bcsys2 cfff tac w500 h80 lh80 mt0auto br99" @click="conf.toPathDt('/pages/my/myaddress/myaddressAdd')">添加收货地址</view>
-		</view>
 		<!-- 1 -->  
 		<view v-if="dataList.length<1">
 			<view class="tac pt100 cccc">暂无数据</view>
@@ -38,6 +34,9 @@
 			</view>
 		</view>
 		<!--  -->
+    <view class="pf b0 vw100">
+      <fui-button @click="conf.toPathDt('/pages/my/myaddress/myaddressAdd')">添加收货地址</fui-button>
+    </view>
 		<view class="pb100"></view>
 		
 		<!-- 弹窗 -->
@@ -68,8 +67,9 @@
 
 <script>
   import uniPopup from '@/components/uni-popup/uni-popup/uni-popup.vue';
+  import fuiButton from "@/components/firstui/fui-button.vue"
 	export default {
-		components: {uniPopup,},
+		components: {uniPopup,fuiButton},
 		data() {
 			return {
 				usersInfo:'',

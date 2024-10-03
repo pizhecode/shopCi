@@ -3,15 +3,18 @@
 	    <view>
         <image src="/static/imgs/fx.png" mode=""></image>
       </view>
-			<view class="df aic jcc pt50">
-				<view class="cfff bcsys2 br99 w200 h70 lh70 tac ml10" @click="saveImage(conf.uaImgJUrl(this.dataList.inviteimg))">保存图片</view>
-			</view>
+			
+      <view class="pf b0 vw100">
+        <fui-button @click="saveImage(conf.uaImgJUrl(this.dataList.inviteimg))">保存图片</fui-button>
+      </view>
 		</view>
 	</view>
 </template>
 
 <script>
+   import fuiButton from "@/components/firstui/fui-button.vue"
 	export default {
+    components:{fuiButton},
 		data() {
 			return {
 			}

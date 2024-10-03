@@ -52,6 +52,9 @@
 		{"path": "pages/sys/set","style":{ "navigationBarTitleText":"系统设置"}},
 		{"path": "pages/sys/lamessage","style":{ "navigationBarTitleText":"留言反馈"}},
     {"path": "pages/sys/message","style":{ "navigationBarTitleText":"联系客服"}},
+    {"path": "pages/sys/about","style":{ "navigationBarTitleText":"关于我们"}},
+    {"path": "pages/sys/information","style":{ "navigationBarTitleText":"个人资料"}},
+    {"path": "pages/sys/mm","style":{ "navigationBarTitleText":"支付密码"}},
 		// 单页
 		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":""}}
 	],

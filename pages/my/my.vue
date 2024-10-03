@@ -1,9 +1,7 @@
 <template>
 	<view>
-		
-		
 		<view>
-      <view class="pl30 pr30 pt30" v-if="isLoggedIn()">
+      <view class="pl30 pr30 pt30"  v-if="isLoggedIn()">
       	<view class="df">
       		<view class="mr30"><image class="w180 h180" src="/static/logo.png"></image> </view>
       		<view>
@@ -16,7 +14,14 @@
       		</view>
       	</view>
       </view>
-      <view v-else @click="conf.toPathDt('/pages/login/login')" class="tac fs30 mt50">点击登录</view>
+      <view class="pl30 pr30 pt30" v-else>
+      	<view class="df">
+      		<view class="mr30"><image class="w180 h180" src="/static/logo.png"></image> </view>
+      		<view>
+      			<view class="fs32 lh180" @click="conf.toPathDt('/pages/login/login')">点击登录</view>
+      		</view>
+      	</view>
+      </view>
     </view>
 		
 		<view class="pl30 pr30 pt30" v-if="isShangHu">
@@ -68,7 +73,7 @@
         <fui-list-cell arrow @click="conf.toPathDt('/pages/my/myaddress/myaddress')"><text>地址管理</text></fui-list-cell>
         <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/lamessage')"><text>留言反馈</text></fui-list-cell>
         <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/message')"><text>联系客服</text></fui-list-cell>
-        <fui-list-cell arrow @click="to_details(3306)"><text>关于我们</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/about')"><text>关于我们</text></fui-list-cell>
         <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/set')"><text>系统设置</text></fui-list-cell>
         <fui-list-cell arrow @click="baibai()"><text>退出登录</text></fui-list-cell>
       </fui-list>

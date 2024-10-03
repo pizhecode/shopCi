@@ -17,15 +17,19 @@
 				<view class="csys fs28 mr20">详细地址</view>
 				<input type="text" v-model="ffm.adress" placeholder="街道/楼牌号等" class="c999 fs28" />
 			</view>
-			<view class="pt100">
-				<view @click="adradd()" class="bcsys2 w500 h80 lh80 cfff fs30 tac br99 mt0auto">保存</view>
-			</view>
 		</view>
+    
+    
+    <view class="pf b0 vw100">
+      <fui-button>保存</fui-button>
+    </view>
 	</view>
 </template>
 
 <script>
+   import fuiButton from "@/components/firstui/fui-button.vue"
 	export default {
+     components:{fuiButton},
 		data() {
 			return {
 				isClick:true,
