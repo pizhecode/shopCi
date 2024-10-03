@@ -1,15 +1,16 @@
 <template>
   <view>
     <view class="pl30 pr30 pt30">
-      <view class="df jcsb aic">
+    <!--  <view class="df jcsb aic">
         <view class="w600">
           <view class="bcccc p10 pl30 pr30"><input @click="conf.toPathDt('/pages/index/so')" placeholder="请输入搜索产品/商户名称"
               placeholder-class="c333" /></view>
         </view>
         <view class="">搜索</view>
       </view>
+      -->
+     <uni-search-bar placeholder="请输入搜索" @cancel="soSuo" cancelText="搜索" ></uni-search-bar>
     </view>
-
     <view class="pl30 pr30 pt30">
       <view class="mt30 mb30 pb30 bb1ccc" @click="conf.toPathDt('/pages/shop/shopDetails')">
         <view class="df jcsb">
@@ -66,23 +67,20 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-
-      }
-    },
-    onShow() {
-
-    },
-    onLoad(e) {
-
-    },
-    methods: {
-
+export default {
+  data() {
+    return {
+      searchValue: '',
+    }
+  },
+  methods: {
+    soSuo(res) {
+      console.log(res.value);
     }
   }
+}
 </script>
+
 
 <style lang="less" scoped>
 

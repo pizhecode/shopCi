@@ -17,6 +17,12 @@
 		},
 		onShow() {},
 		onLoad(e) {},
+    onBackPress(e){
+      uni.reLaunch({
+    	  url:"/pages/index/index",
+      })
+      return true;
+    },
 		methods: {
 			goIndex() {uni.reLaunch({url: '/pages/index/index'});},
       goIndex2() {uni.reLaunch({url: '/pages/my/myorder/myorder'});}

@@ -13,10 +13,11 @@
 		
 		
 		<view class="pl30 pr30 pt30">
-			<view class="df jcsb">
+			<view class="df jcsb aic">
 				<view><image class="w160 h60" src="/static/logo.png"></image></view>
-				<view class="w500">
-					<view class="bcccc p10 pl30 pr30"><input @click="conf.toPathDt('/pages/index/so')" placeholder="请输入搜索产品/商户名称" placeholder-class="c333" /></view>
+				<view class="w500" @click="conf.toPathDt('/pages/index/so')">
+         <uni-search-bar  @confirm="search" :focus="true" cancelButton="false" @input="input"></uni-search-bar>
+					<!-- <view class="bcccc p10 pl30 pr30"><input @click="conf.toPathDt('/pages/index/so')" placeholder="请输入搜索产品/商户名称" placeholder-class="c333" /></view> -->
 				</view>
 			</view>
 		</view>
