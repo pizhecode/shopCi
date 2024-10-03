@@ -60,51 +60,27 @@
 		</view>
 		
 		<view class="h30"></view>
-		<view class="pl30 pr30 pt30">
-			<view class="fs32">服务与工具</view>
-			<view class="mt40">
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/my/myshare/myShareCode')">
-					<view>我的分享码</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/my/myFriend/myFriend')">
-					<view>我的好友</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/my/myaddress/myaddress')">
-					<view>地址管理</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/sys/lamessage')">
-					<view>留言反馈</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/sys/message')">
-          <!-- <button open-type="contact" bindcontact="handleContact" session-from="sessionFrom">在线客服</button> -->
-          
-          <view>联系客服</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="to_details(3306)">
-					<view>关于我们</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb bb1ccc mt30 pb30" @click="conf.toPathDt('/pages/sys/set')">
-					<view>系统设置</view>
-					<view><image class="w30 h30" src="../../static/imgs/icon/ic_you_h.png"></image></view>
-				</view>
-				<view class="df jcsb mt30 pb30">
-					<view @click="baibai()">退出登录</view>
-				</view>
-			</view>
+		<view class="">
+			<view class="fs32 p30">服务与工具</view>
+      <fui-list>
+      	<fui-list-cell arrow @click="conf.toPathDt('/pages/my/myshare/myShareCode')"><text>我的分享码</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/my/myFriend/myFriend')"><text>我的好友</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/my/myaddress/myaddress')"><text>地址管理</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/lamessage')"><text>留言反馈</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/message')"><text>联系客服</text></fui-list-cell>
+        <fui-list-cell arrow @click="to_details(3306)"><text>关于我们</text></fui-list-cell>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/sys/set')"><text>系统设置</text></fui-list-cell>
+        <fui-list-cell arrow @click="baibai()"><text>退出登录</text></fui-list-cell>
+      </fui-list>
 		</view>
-		
-		<view class="h40"></view>
 	</view>
 </template>
 
 <script>
+  import fuiList from "@/components/firstui/fui-list.vue"
+  import fuiListCell from "@/components/firstui/fui-list-cell.vue"
 	export default {
+    components:{fuiList,fuiListCell},
 		data() {
 			return {
 				isShangHu:true
@@ -127,7 +103,6 @@
       btnManageShop(){
         uni.navigateTo({url: '/pages/merchantmanagement/merchantmanagement',})
       },
-     
       //关于我们
       to_details(et){uni.navigateTo({url: "/pages/singlepage/singlepage?et="+et})},
 		}
