@@ -5,7 +5,8 @@
             <image src="/static/imgs/icon/adr.png" mode="" class="w50 h50"></image>
             <view class="ml20">郑州市</view>
         </view>
-        <view class="bcccc p10 pl30 pr30 lh0 ml10 vw60"><input placeholder="请输入" placeholder-class="c333" /></view>
+        <!-- <view class="bcccc p10 pl30 pr30 lh0 ml10 vw60"><input placeholder="请输入" placeholder-class="c333" /></view> -->
+        <uni-search-bar placeholder="请输入搜索" @cancel="soSuo" cancelText="搜索" ></uni-search-bar>
      </view>
       
    <view class="content ddd">
@@ -94,7 +95,12 @@
 				// uni.showModal({title: "点击右边商品条目",content: '点击右边商品条目 = ' + JSON.stringify(e)})
         // console.log(e.goods_id);
         this.conf.toPathDt(`/pages/shop/shopDetails?id=${e.goods_id}`)
-			}
+			},
+      
+      
+      soSuo(res) {
+        console.log(res.value);
+      }
 		}
 	}
 </script>
