@@ -86,6 +86,7 @@ html,body,#app{height: 100%;margin: 0;padding: 0;}
 /* 颜色 */
 .c000{color:#000;} .c111{color:#111;} .c222{color:#222;} .c333{color:#333;} .c444{color:#444;} .c555{color:#555;} .c666{color:#666;} .c777{color:#777;} .c888{color:#888;} .c999{color:#999;} .caaa{color:#aaa;} .cbbb{color:#bbb;} .cccc{color:#ccc;} .cddd{color:#ddd;} .ceee{color:#eee;} .cfff{color:#fff;}.cf1f1f1{color:#f1f1f1;}.cf3f3f3{color:#f3f3f3;}.cf6f6f6{color:#f6f6f6;}.cf9f9f9{color:#f9f9f9;}.cblue{color:rgb(49, 128, 255)}.cf7f7f7{color:#7f7f7f}
 .cf00{color: #f00;} .bcf00{background-color: #f00;}
+.bcff7200{color: #ff0;}
 /* 边框 */
 .b1000{border:1rpx solid #000;} .b1111{border:1rpx solid #111;} .b1222{border:1rpx solid #222;} .b1333{border:1rpx solid #333;} .b1444{border:1rpx solid #444;} .b1555{border:1rpx solid #555;} .b1666{border:1rpx solid #666;} .b1777{border:1rpx solid #777;} .b1888{border:1rpx solid #888;} .b1999{border:1rpx solid #999;} .b1aaa{border:1rpx solid #aaa;} .b1bbb{border:1rpx solid #bbb;} .b1ccc{border:1rpx solid #ccc;} .b1ddd{border:1rpx solid #ddd;} .b1eee{border:1rpx solid #eee;} .b1fff{border:1rpx solid #fff;}.b1f1f1f1{border:1rpx solid #f1f1f1;}.b1f3f3f3{border:1rpx solid #f3f3f3;}.b1f6f6f6{border:1rpx solid #f6f6f6;}.b1f8f8f8{border:1rpx solid #f8f8f8;}
 /* 上边框 */

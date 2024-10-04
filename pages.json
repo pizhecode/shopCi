@@ -26,6 +26,8 @@
     
 		{"path": "pages/merchantmanagement/merchantmanagement","style":{ "navigationBarTitleText":"商户管理"}},
 		{"path": "pages/merchantmanagement/merchantShop","style":{ "navigationBarTitleText":"店铺管理"}},
+    {"path": "pages/merchantmanagement/merchantInfo","style":{ "navigationBarTitleText":"店铺资料"}},
+    {"path": "pages/merchantmanagement/merchantInfoFix","style":{ "navigationBarTitleText":"修改店铺资料"}},
 		{"path": "pages/merchantmanagement/merchantType","style":{ "navigationBarTitleText":"商户商品分类管理"}},
 		{"path": "pages/merchantmanagement/merchantGoods","style":{ "navigationBarTitleText":"商户产品管理"}},
 		{"path": "pages/merchantmanagement/merchantOrder","style":{ "navigationBarTitleText":"商户订单管理"}},

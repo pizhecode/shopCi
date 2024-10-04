@@ -25,7 +25,7 @@
            <fui-button type="danger" radius="96rpx" width="300rpx" height="50rpx" @click="btnGoPay()">去支付</fui-button>
        </view>
        
-       <fui-actionsheet @click="removeOrderOK(12)" @cancel="removeOrder.show=false" :maskClosable=true :show="removeOrder.show" :tips="removeOrder.tips" :itemList="removeOrder.itemList"></fui-actionsheet>
+       <fui-actionsheet @click="removeOrderOK()" @cancel="removeOrder.show=false,removeOrder.id=''" :show="removeOrder.show" :tips="removeOrder.tips" :itemList="removeOrder.itemList"></fui-actionsheet>
     </view>
 	</view>
 </template>
