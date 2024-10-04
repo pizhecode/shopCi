@@ -32,7 +32,11 @@
 		{"path": "pages/merchantmanagement/merchantGoods","style":{ "navigationBarTitleText":"商户产品管理"}},
 		{"path": "pages/merchantmanagement/merchantOrder","style":{ "navigationBarTitleText":"商户订单管理"}},
 		{"path": "pages/merchantmanagement/merchantPurse","style":{ "navigationBarTitleText":"商户钱包管理"}},
-		
+		{"path": "pages/merchantmanagement/merchantXX","style":{ "navigationBarTitleText":"提现详情"}},
+    {"path": "pages/merchantmanagement/ti/ti","style":{ "navigationBarTitleText":"提现"}},
+     {"path": "pages/merchantmanagement/ti/addCard","style":{ "navigationBarTitleText":"添加银行卡"}},
+      {"path": "pages/merchantmanagement/ti/card","style":{ "navigationBarTitleText":"我的银行卡"}},
+     
 		{"path": "pages/ridermanagement/ridermanagement","style":{ "navigationBarTitleText":"骑手管理"}},
 		{"path": "pages/ridermanagement/riderOrder","style":{ "navigationBarTitleText":"产品订单"}},
 		{"path": "pages/ridermanagement/riderOrderShop","style":{ "navigationBarTitleText":"店铺订单"}},
