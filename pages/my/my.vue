@@ -68,6 +68,7 @@
 		<view class="">
 			<view class="fs32 p30">服务与工具</view>
       <fui-list>
+        <fui-list-cell arrow @click="conf.toPathDt('/pages/applyShop/applyShop')"><text>申请店铺</text></fui-list-cell>
       	<fui-list-cell arrow @click="conf.toPathDt('/pages/my/myshare/myShareCode')"><text>我的分享码</text></fui-list-cell>
         <fui-list-cell arrow @click="conf.toPathDt('/pages/my/myFriend/myFriend')"><text>我的好友</text></fui-list-cell>
         <fui-list-cell arrow @click="conf.toPathDt('/pages/my/myaddress/myaddress')"><text>地址管理</text></fui-list-cell>

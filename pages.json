@@ -61,6 +61,8 @@
     {"path": "pages/sys/about","style":{ "navigationBarTitleText":"关于我们"}},
     {"path": "pages/sys/information","style":{ "navigationBarTitleText":"个人资料"}},
     {"path": "pages/sys/mm","style":{ "navigationBarTitleText":"支付密码"}},
+    //申请店铺
+    {"path": "pages/applyShop/applyShop","style":{ "navigationBarTitleText":"申请店铺"}},
 		// 单页
 		{"path": "pages/singlepage/singlepage","style":{ "navigationBarTitleText":""}}
 	],
